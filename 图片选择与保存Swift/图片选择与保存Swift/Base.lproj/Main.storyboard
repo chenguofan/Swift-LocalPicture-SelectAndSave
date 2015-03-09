@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7519.1" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7513.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="图片选择与保存Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dongao.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="yOU-oI-dML">
+                                <rect key="frame" x="154" y="195" width="293" height="211"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="211" id="Ikn-RF-ew2"/>
+                                    <constraint firstAttribute="width" constant="293" id="sAm-cp-abt"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J4m-qj-ApU">
+                                <rect key="frame" x="16" y="550" width="30" height="30"/>
+                                <state key="normal" title="保存"/>
+                                <connections>
+                                    <action selector="save" destination="vXZ-lx-hvc" eventType="touchUpInside" id="aoe-W0-cAS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hax-2N-Z7s">
+                                <rect key="frame" x="81" y="550" width="60" height="30"/>
+                                <state key="normal" title="选择图片"/>
+                                <connections>
+                                    <action selector="select" destination="vXZ-lx-hvc" eventType="touchUpInside" id="K5Z-5k-XFo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="J4m-qj-ApU" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="gT3-Oo-rp7"/>
+                            <constraint firstItem="J4m-qj-ApU" firstAttribute="centerY" secondItem="Hax-2N-Z7s" secondAttribute="centerY" id="ifu-gT-4z1"/>
+                            <constraint firstItem="Hax-2N-Z7s" firstAttribute="leading" secondItem="J4m-qj-ApU" secondAttribute="trailing" constant="35" id="kzD-b8-puf"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="J4m-qj-ApU" secondAttribute="bottom" constant="20" id="miL-wt-ROU"/>
+                            <constraint firstAttribute="centerY" secondItem="yOU-oI-dML" secondAttribute="centerY" id="vKm-Mb-s2w"/>
+                            <constraint firstAttribute="centerX" secondItem="yOU-oI-dML" secondAttribute="centerX" id="xFf-gt-lCQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="yOU-oI-dML" id="O7B-YG-O9d"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dongao.jpg" width="591" height="472"/>
+    </resources>
+</document>

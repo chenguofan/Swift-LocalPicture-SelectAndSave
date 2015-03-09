@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDB9225E1AAD6659003BB008 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB9225D1AAD6659003BB008 /* AppDelegate.swift */; };
+		EDB922601AAD665A003BB008 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB9225F1AAD665A003BB008 /* ViewController.swift */; };
+		EDB922651AAD665A003BB008 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB922641AAD665A003BB008 /* Images.xcassets */; };
+		EDB922681AAD665A003BB008 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDB922661AAD665A003BB008 /* LaunchScreen.xib */; };
+		EDB922741AAD665A003BB008 /* _______SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB922731AAD665A003BB008 /* _______SwiftTests.swift */; };
+		EDB922801AAD6683003BB008 /* dongao.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDB9227F1AAD6683003BB008 /* dongao.jpg */; };
+		EDB922831AAD66A6003BB008 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB922811AAD66A6003BB008 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDB9226E1AAD665A003BB008 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDB922501AAD6659003BB008 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDB922571AAD6659003BB008;
+			remoteInfo = "图片选择与保存Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDB922581AAD6659003BB008 /* 图片选择与保存Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "图片选择与保存Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB9225C1AAD6659003BB008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDB9225D1AAD6659003BB008 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDB9225F1AAD665A003BB008 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDB922641AAD665A003BB008 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EDB922671AAD665A003BB008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EDB9226D1AAD665A003BB008 /* 图片选择与保存SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "图片选择与保存SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB922721AAD665A003BB008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDB922731AAD665A003BB008 /* _______SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_______SwiftTests.swift"; sourceTree = "<group>"; };
+		EDB9227F1AAD6683003BB008 /* dongao.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dongao.jpg; sourceTree = "<group>"; };
+		EDB922821AAD66A6003BB008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDB922551AAD6659003BB008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB9226A1AAD665A003BB008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDB9224F1AAD6659003BB008 = {
+			isa = PBXGroup;
+			children = (
+				EDB9225A1AAD6659003BB008 /* 图片选择与保存Swift */,
+				EDB922701AAD665A003BB008 /* 图片选择与保存SwiftTests */,
+				EDB922591AAD6659003BB008 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDB922591AAD6659003BB008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDB922581AAD6659003BB008 /* 图片选择与保存Swift.app */,
+				EDB9226D1AAD665A003BB008 /* 图片选择与保存SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDB9225A1AAD6659003BB008 /* 图片选择与保存Swift */ = {
+			isa = PBXGroup;
+			children = (
+				EDB922811AAD66A6003BB008 /* Main.storyboard */,
+				EDB9225D1AAD6659003BB008 /* AppDelegate.swift */,
+				EDB9225F1AAD665A003BB008 /* ViewController.swift */,
+				EDB922641AAD665A003BB008 /* Images.xcassets */,
+				EDB922661AAD665A003BB008 /* LaunchScreen.xib */,
+				EDB9225B1AAD6659003BB008 /* Supporting Files */,
+			);
+			path = "图片选择与保存Swift";
+			sourceTree = "<group>";
+		};
+		EDB9225B1AAD6659003BB008 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDB9227F1AAD6683003BB008 /* dongao.jpg */,
+				EDB9225C1AAD6659003BB008 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDB922701AAD665A003BB008 /* 图片选择与保存SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDB922731AAD665A003BB008 /* _______SwiftTests.swift */,
+				EDB922711AAD665A003BB008 /* Supporting Files */,
+			);
+			path = "图片选择与保存SwiftTests";
+			sourceTree = "<group>";
+		};
+		EDB922711AAD665A003BB008 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDB922721AAD665A003BB008 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDB922571AAD6659003BB008 /* 图片选择与保存Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB922771AAD665A003BB008 /* Build configuration list for PBXNativeTarget "图片选择与保存Swift" */;
+			buildPhases = (
+				EDB922541AAD6659003BB008 /* Sources */,
+				EDB922551AAD6659003BB008 /* Frameworks */,
+				EDB922561AAD6659003BB008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "图片选择与保存Swift";
+			productName = "图片选择与保存Swift";
+			productReference = EDB922581AAD6659003BB008 /* 图片选择与保存Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDB9226C1AAD665A003BB008 /* 图片选择与保存SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB9227A1AAD665A003BB008 /* Build configuration list for PBXNativeTarget "图片选择与保存SwiftTests" */;
+			buildPhases = (
+				EDB922691AAD665A003BB008 /* Sources */,
+				EDB9226A1AAD665A003BB008 /* Frameworks */,
+				EDB9226B1AAD665A003BB008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDB9226F1AAD665A003BB008 /* PBXTargetDependency */,
+			);
+			name = "图片选择与保存SwiftTests";
+			productName = "图片选择与保存SwiftTests";
+			productReference = EDB9226D1AAD665A003BB008 /* 图片选择与保存SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDB922501AAD6659003BB008 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = kouliang;
+				TargetAttributes = {
+					EDB922571AAD6659003BB008 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					EDB9226C1AAD665A003BB008 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = EDB922571AAD6659003BB008;
+					};
+				};
+			};
+			buildConfigurationList = EDB922531AAD6659003BB008 /* Build configuration list for PBXProject "图片选择与保存Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDB9224F1AAD6659003BB008;
+			productRefGroup = EDB922591AAD6659003BB008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDB922571AAD6659003BB008 /* 图片选择与保存Swift */,
+				EDB9226C1AAD665A003BB008 /* 图片选择与保存SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDB922561AAD6659003BB008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB922801AAD6683003BB008 /* dongao.jpg in Resources */,
+				EDB922681AAD665A003BB008 /* LaunchScreen.xib in Resources */,
+				EDB922651AAD665A003BB008 /* Images.xcassets in Resources */,
+				EDB922831AAD66A6003BB008 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB9226B1AAD665A003BB008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDB922541AAD6659003BB008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB922601AAD665A003BB008 /* ViewController.swift in Sources */,
+				EDB9225E1AAD6659003BB008 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB922691AAD665A003BB008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB922741AAD665A003BB008 /* _______SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDB9226F1AAD665A003BB008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDB922571AAD6659003BB008 /* 图片选择与保存Swift */;
+			targetProxy = EDB9226E1AAD665A003BB008 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDB922661AAD665A003BB008 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB922671AAD665A003BB008 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		EDB922811AAD66A6003BB008 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB922821AAD66A6003BB008 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDB922751AAD665A003BB008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDB922761AAD665A003BB008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDB922781AAD665A003BB008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "图片选择与保存Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDB922791AAD665A003BB008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "图片选择与保存Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EDB9227B1AAD665A003BB008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "图片选择与保存SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/图片选择与保存Swift.app/图片选择与保存Swift";
+			};
+			name = Debug;
+		};
+		EDB9227C1AAD665A003BB008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "图片选择与保存SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/图片选择与保存Swift.app/图片选择与保存Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDB922531AAD6659003BB008 /* Build configuration list for PBXProject "图片选择与保存Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB922751AAD665A003BB008 /* Debug */,
+				EDB922761AAD665A003BB008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDB922771AAD665A003BB008 /* Build configuration list for PBXNativeTarget "图片选择与保存Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB922781AAD665A003BB008 /* Debug */,
+				EDB922791AAD665A003BB008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDB9227A1AAD665A003BB008 /* Build configuration list for PBXNativeTarget "图片选择与保存SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB9227B1AAD665A003BB008 /* Debug */,
+				EDB9227C1AAD665A003BB008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDB922501AAD6659003BB008 /* Project object */;
+}
