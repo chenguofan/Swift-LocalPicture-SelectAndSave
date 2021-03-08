@@ -8,20 +8,22 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
 
     @IBOutlet weak var imageView: UIImageView!
 
     @IBAction func save() {
-        let image = imageView.image
+        guard let image = imageView.image else { return  }
         // 保存到相册
-        UIImageWriteToSavedPhotosAlbum(image, self, "image:didFinishSavingWithError:contextInfo:", nil)
+        UIImageWriteToSavedPhotosAlbum(image, self, #selector(saveImage(image:didFinishSavingWithError:contextInfo:)), nil)
     }
-    func image(image: UIImage, didFinishSavingWithError error: NSError?, contextInfo: AnyObject) {
+    
+    @objc private func saveImage(image: UIImage, didFinishSavingWithError error: NSError?, contextInfo: AnyObject) {
         if error != nil {
-            println("保存出错")
+            print("保存出错")
         } else {
-            println("保存成功")
+            print("保存成功")
         }
     }
     
@@ -29,25 +31,23 @@ class ViewController: UIViewController {
     @IBAction func select() {
         let imgPicker = UIImagePickerController()
         // 设置照片选择数据源
-        imgPicker.sourceType = UIImagePickerControllerSourceType.SavedPhotosAlbum
+        imgPicker.sourceType = UIImagePickerController.SourceType.savedPhotosAlbum
         
         // 设置照片选择器的代理
         imgPicker.delegate = self;
         
-        presentViewController(imgPicker, animated: true) { () -> Void in
+        present(imgPicker, animated: true) { () -> Void in
         }
     }
 }
 
 extension ViewController: UINavigationControllerDelegate,UIImagePickerControllerDelegate {
     
-    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [NSObject : AnyObject]) {
+    private func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [NSObject : AnyObject]) {
         
-        let image = info[UIImagePickerControllerOriginalImage] as! UIImage
-        
-        imageView.image = image
-        
-        dismissViewControllerAnimated(true){ () -> Void in
+//        let image = info[UIImagePickerControllerOriginalImage] as! UIImage
+            print(info);
+            dismiss(animated: true){ () -> Void in
         }
     }
 }
